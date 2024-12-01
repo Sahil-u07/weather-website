@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+  text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
+  background-image: url('images/image.jpg'); /* Reference the local image */
+  background-size: cover; /* Cover the entire page */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* White text */
+}
+
+/* Main Container Styling */
+.container {
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  max-width: 600px; /* Set max width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 36px;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Weather Info Styling */
+#weatherInfo {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #00796b; /* Teal color */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for weather data */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Button Styling */
+button {
+  background-color: #00796b; /* Teal button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    max-width: 90%; /* Take up more space on smaller screens */
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  #weatherInfo {
+    font-size: 18px;
+  }
+}
